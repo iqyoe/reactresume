@@ -1,11 +1,16 @@
 import React, {Component} from 'react';
 import './About.css'
+import WOW from "wowjs";
 import profilephoto from './profile.jpeg';
 
 class Content extends Component {
+    componentDidMount() {
+        const wow = new WOW.WOW();
+        wow.init();
+      }
     render () {
         return (
-            <div className='container mt-3'>
+            <div className='container mt-3 wow fadeIn' data-wow-duration="1s">
                 <div className='row ' id='about'>
                     <div className='col-sm-12 col-md-4 text-center'>
                         <img id='profilephoto' alt='Muhammad Iqbal Profile' className='img-fluid rounded-circle' src={profilephoto} />

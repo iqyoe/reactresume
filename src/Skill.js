@@ -8,7 +8,7 @@ class Skill extends Component {
                 <p className="h2 text-center mt-3 mb-3">WHAT I DO</p>
                 <div className="card-columns text-center">
                     {/* <!-- <div class="col-sm-12 col-md-6 mt-3 text-center wow slideInUp slow"> --> */}
-                    <div className="card">
+                    <div className="card wow fadeIn" data-wow-duration='1s'>
                             <div className="card-body">
                                 <p className="skill-icon"><i className="fas fa-desktop"></i></p>
                                 <p className="h5">UX UI Design</p>
@@ -22,7 +22,7 @@ class Skill extends Component {
                         </div>
                     {/* <!-- </div> --> */}
                     {/* <!-- <div class="col-sm-12 col-md-6 mt-3 text-center wow slideInUp slow"> --> */}
-                        <div className="card">
+                        <div className="card wow fadeIn" data-wow-duration='1s'>
                             <div className="card-body">
                                 <p className="skill-icon"><i className="fas fa-mobile-alt"></i></p>
                                 <p className="h5">MOBILE APPLICATION DEV</p>
@@ -36,7 +36,7 @@ class Skill extends Component {
                         </div>
                     {/* <!-- </div> --> */}
                     {/* <!-- <div class="col-sm-12 col-md-6 mt-3 text-center wow slideInUp slow"> --> */}
-                        <div className="card">
+                        <div className="card wow fadeIn" data-wow-duration='1s'>
                             <div className="card-body">
                                 <p className="skill-icon"><i className="fas fa-desktop"></i></p>
                                 <p className="h5">FRONTEND WEB DEV</p>
@@ -52,7 +52,7 @@ class Skill extends Component {
                         </div>
                     {/* <!-- </div> --> */}
                     {/* <!-- <div class="col-sm-12 col-md-6 mt-3 text-center wow slideInUp slow"> --> */}
-                        <div className="card">
+                        <div className="card wow fadeIn" data-wow-duration='1s'>
                             <div className="card-body">
                                 <p className="skill-icon"><i className="fas fa-database"></i></p>
                                 <p className="h5">BACKEND WEB DEV</p>
@@ -68,7 +68,7 @@ class Skill extends Component {
                         </div>
                     {/* <!-- </div> --> */}
                     {/* <!-- <div class="col-sm-12 col-md-6 mt-3 text-center wow slideInUp slow"> --> */}
-                        <div className="card">
+                        <div className="card wow fadeIn" data-wow-duration='1s'>
                             <div className="card-body">
                                 <p className="skill-icon"><i className="fas fa-chart-line"></i></p>
                                 <p className="h5">DATA ENGINEER</p>
